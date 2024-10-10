@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+footer{
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+
+}
+h1{
+    font-size: 72px;
+}
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px; /* Ancho total del tablero */
+    height: 450px; /* Altura total del tablero */
+    padding: 30px;
+    border-color: black;
+    border: 5px solid;
+}
+.col-1 {
+    width: 12.5%; /* Cada columna ocupa el 12.5% */
+    height: 12.5%; /* Cada fila ocupa el 12.5% */
+}
+.white {
+    background-color: white;
+}
+.black {
+    background-color: black;
+}
+header {
+    margin-bottom: 20px; /* Espacio entre el header y el tablero */
+    text-align: center; /* Centra el texto del encabezado */
+    margin: 50px 0px 50px 0px;
+}
+img{
+    height: 80%;
+    width: 80%;
+    justify-content: center;
+    margin: 10% 0% 0% 10%;
+}
