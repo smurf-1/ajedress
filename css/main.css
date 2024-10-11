@@ -25,8 +25,8 @@ h1{
 .container-fluid {
     display: flex;
     flex-wrap: wrap;
-    width: 450px; /* Ancho total del tablero */
-    height: 450px; /* Altura total del tablero */
+    width: 600px; /* Ancho total del tablero */
+    height: 600px; /* Altura total del tablero */
     padding: 30px;
     border-color: black;
     border: 5px solid;
@@ -45,6 +45,7 @@ header {
     margin-bottom: 20px; /* Espacio entre el header y el tablero */
     text-align: center; /* Centra el texto del encabezado */
     margin: 50px 0px 50px 0px;
+    padding: 20px 0px 0px 0px;
 }
 img{
     height: 80%;
